@@ -6,7 +6,7 @@ import { HeroStage } from "@/components/sections/HeroStage";
 
 export function Hero() {
   return (
-    <section className="relative isolate min-h-[100svh] overflow-hidden bg-ink">
+    <section className="relative isolate min-h-[85svh] sm:min-h-[90svh] lg:min-h-[100svh] overflow-hidden bg-ink">
       <HeroVisual />
 
       {/* Screen-reader and SEO accessible heading */}
@@ -14,7 +14,10 @@ export function Hero() {
         Prime Projects International — Building Saudi Arabia&apos;s Future
       </h1>
 
-      <div className="shell relative z-10 flex min-h-[100svh] flex-col justify-end pb-8 pt-32 md:pb-12">
+      <div className="shell relative z-10 flex min-h-[85svh] sm:min-h-[90svh] lg:min-h-[100svh] flex-col justify-between lg:justify-end pb-8 pt-24 sm:pt-28 lg:pb-12 lg:pt-32">
+        {/* Invisible spacer so mobile layout balances cleanly with justify-between */}
+        <div className="hidden lg:block" aria-hidden="true" />
+
         <HeroStage>
           {/* Bottom subtle bar for navigation and explore cue */}
           <div className="flex flex-col gap-4 border-t border-white/10 pt-4 sm:flex-row sm:items-center sm:justify-between">
