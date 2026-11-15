@@ -4,7 +4,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 type MountRevealProps = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   delay?: number;
   y?: number;
   className?: string;

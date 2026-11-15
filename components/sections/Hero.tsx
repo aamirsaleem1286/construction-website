@@ -22,12 +22,12 @@ export function Hero() {
           {/* Bottom subtle bar for navigation and explore cue */}
           <div className="flex flex-col gap-4 border-t border-white/10 pt-4 sm:flex-row sm:items-center sm:justify-between">
             <MountReveal delay={0.2} y={10} className="flex flex-wrap items-center gap-3">
-              <Button href="/services" size="sm">
+              {/* <Button href="/services" size="sm">
                 Explore Our Services
               </Button>
               <Button href="/contact#quote" variant="outline" size="sm">
                 Request a Quote
-              </Button>
+              </Button> */}
             </MountReveal>
 
             <MountReveal delay={0.3} y={10}>
