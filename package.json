@@ -1,0 +1,41 @@
+{
+  "name": "prime-projects-international",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Corporate website for Prime Projects International (PPI) — construction, waterproofing, insulation and infrastructure solutions in the Kingdom of Saudi Arabia.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^14.14.0",
+    "gsap": "^3.15.1",
+    "lucide-react": "^1.73.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-hook-form": "^7.65.0",
+    "tailwind-merge": "^3.3.1",
+    "three": "^0.187.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^24.9.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@types/three": "^0.187.0",
+    "eslint": "^9.38.0",
+    "eslint-config-next": "^16.4.6",
+    "sharp": "^0.34.4",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.9.3"
+  }
+}
